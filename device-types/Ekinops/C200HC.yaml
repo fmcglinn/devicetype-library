@@ -1,0 +1,30 @@
+---
+manufacturer: Ekinops
+model: C200HC
+slug: ekinops-c200hc
+u_height: 2
+is_full_depth: false
+airflow: right-to-left
+front_image: true
+power-ports:
+  - name: PSU A
+    type: dc-terminal
+    maximum_draw: 500
+  - name: PSU B
+    type: dc-terminal
+    maximum_draw: 500
+module-bays:
+  - name: Slot 0
+    position: '0'
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot 4
+    position: '4'
+  - name: Slot 5
+    position: '5'
+  - name: Slot 6
+    position: '6'

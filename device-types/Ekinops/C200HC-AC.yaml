@@ -1,0 +1,27 @@
+---
+manufacturer: Ekinops
+model: C200HC-AC
+slug: ekinops-c200hc-ac
+u_height: 2
+is_full_depth: false
+airflow: right-to-left
+front_image: true
+module-bays:
+  - name: PSU A
+    position: PSU-A
+  - name: PSU B
+    position: PSU-B
+  - name: Slot 0
+    position: '0'
+  - name: Slot 1
+    position: '1'
+  - name: Slot 2
+    position: '2'
+  - name: Slot 3
+    position: '3'
+  - name: Slot 4
+    position: '4'
+  - name: Slot 5
+    position: '5'
+  - name: Slot 6
+    position: '6'

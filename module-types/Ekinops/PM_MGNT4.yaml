@@ -1,0 +1,17 @@
+---
+manufacturer: Ekinops
+model: PM_MGNT4
+description: Management module for C200HC/C600HC chassis
+console-ports:
+  - name: CLI
+    type: de-9
+interfaces:
+  - name: NTWK
+    type: 1000base-t
+    mgmt_only: true
+  - name: Local 1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Local 2
+    type: 1000base-t
+    mgmt_only: true

@@ -1,0 +1,8 @@
+---
+manufacturer: Ekinops
+model: PSU-AC
+description: 110/240VAC power supply for C200HC chassis
+power-ports:
+  - name: PSU {module}
+    type: iec-60320-c14
+    maximum_draw: 500
