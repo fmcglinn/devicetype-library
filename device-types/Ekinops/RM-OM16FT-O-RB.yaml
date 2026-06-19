@@ -1,0 +1,182 @@
+---
+manufacturer: Ekinops
+model: RM-OM16FT-O-RB
+part_number: RM-OM16FT-O-RB
+slug: ekinops-rm-om16ft-o-rb
+u_height: 1
+is_full_depth: false
+front_image: true
+description: 16ch passive DWDM MUX/DEMUX, Red band MUX (ch 22-37) / Blue band DEMUX (ch 44-59), 100GHz odd, flat-top
+rear-ports:
+  - name: Com Line
+    type: lc-pc
+    positions: 32
+    description: Aggregate DWDM trunk (LC duplex, Tx+Rx)
+front-ports:
+  - name: MUX Ch 22 (1559.79nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 1
+    description: Red band channel 22
+  - name: MUX Ch 23 (1558.98nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 2
+    description: Red band channel 23
+  - name: MUX Ch 24 (1558.17nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 3
+    description: Red band channel 24
+  - name: MUX Ch 25 (1557.36nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 4
+    description: Red band channel 25
+  - name: MUX Ch 26 (1556.56nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 5
+    description: Red band channel 26
+  - name: MUX Ch 27 (1555.75nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 6
+    description: Red band channel 27
+  - name: MUX Ch 28 (1554.94nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 7
+    description: Red band channel 28
+  - name: MUX Ch 29 (1554.13nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 8
+    description: Red band channel 29
+  - name: MUX Ch 30 (1553.33nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 9
+    description: Red band channel 30
+  - name: MUX Ch 31 (1552.52nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 10
+    description: Red band channel 31
+  - name: MUX Ch 32 (1551.72nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 11
+    description: Red band channel 32
+  - name: MUX Ch 33 (1550.92nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 12
+    description: Red band channel 33
+  - name: MUX Ch 34 (1550.12nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 13
+    description: Red band channel 34
+  - name: MUX Ch 35 (1549.32nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 14
+    description: Red band channel 35
+  - name: MUX Ch 36 (1548.52nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 15
+    description: Red band channel 36
+  - name: MUX Ch 37 (1547.71nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 16
+    description: Red band channel 37
+  - name: DEMUX Ch 44 (1542.14nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 17
+    description: Blue band channel 44
+  - name: DEMUX Ch 45 (1541.35nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 18
+    description: Blue band channel 45
+  - name: DEMUX Ch 46 (1540.56nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 19
+    description: Blue band channel 46
+  - name: DEMUX Ch 47 (1539.77nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 20
+    description: Blue band channel 47
+  - name: DEMUX Ch 48 (1538.98nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 21
+    description: Blue band channel 48
+  - name: DEMUX Ch 49 (1538.19nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 22
+    description: Blue band channel 49
+  - name: DEMUX Ch 50 (1537.40nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 23
+    description: Blue band channel 50
+  - name: DEMUX Ch 51 (1536.61nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 24
+    description: Blue band channel 51
+  - name: DEMUX Ch 52 (1535.82nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 25
+    description: Blue band channel 52
+  - name: DEMUX Ch 53 (1535.04nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 26
+    description: Blue band channel 53
+  - name: DEMUX Ch 54 (1534.25nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 27
+    description: Blue band channel 54
+  - name: DEMUX Ch 55 (1533.46nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 28
+    description: Blue band channel 55
+  - name: DEMUX Ch 56 (1532.68nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 29
+    description: Blue band channel 56
+  - name: DEMUX Ch 57 (1531.90nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 30
+    description: Blue band channel 57
+  - name: DEMUX Ch 58 (1531.12nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 31
+    description: Blue band channel 58
+  - name: DEMUX Ch 59 (1530.33nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 32
+    description: Blue band channel 59
+interfaces:
+  - name: Mon Tx
+    type: other
+    description: MUX monitoring tap (98/2, -17dB)
+  - name: Mon Rx
+    type: other
+    description: DEMUX monitoring tap (98/2, -17dB)

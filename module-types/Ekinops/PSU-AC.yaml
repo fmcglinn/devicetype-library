@@ -1,6 +1,7 @@
 ---
 manufacturer: Ekinops
 model: PSU-AC
+part_number: PSU-AC
 description: 110/240VAC power supply for C200HC chassis
 power-ports:
   - name: PSU {module}

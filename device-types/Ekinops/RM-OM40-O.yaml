@@ -1,0 +1,222 @@
+---
+manufacturer: Ekinops
+model: RM-OM40-O
+part_number: RM-OM40-O
+slug: ekinops-rm-om40-o
+u_height: 1
+is_full_depth: false
+front_image: true
+description: 40ch passive DWDM MUX/DEMUX, 100GHz odd channels (ch 20-59), 1530.33-1561.42nm
+rear-ports:
+  - name: Com Line
+    type: lc-pc
+    positions: 40
+    description: Aggregate DWDM trunk (LC duplex, Tx+Rx)
+front-ports:
+  - name: Ch 20 (1561.419nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 1
+    description: 100GHz odd channel 20
+  - name: Ch 21 (1560.606nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 2
+    description: 100GHz odd channel 21
+  - name: Ch 22 (1559.794nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 3
+    description: 100GHz odd channel 22
+  - name: Ch 23 (1558.983nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 4
+    description: 100GHz odd channel 23
+  - name: Ch 24 (1558.173nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 5
+    description: 100GHz odd channel 24
+  - name: Ch 25 (1557.363nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 6
+    description: 100GHz odd channel 25
+  - name: Ch 26 (1556.555nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 7
+    description: 100GHz odd channel 26
+  - name: Ch 27 (1555.747nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 8
+    description: 100GHz odd channel 27
+  - name: Ch 28 (1554.940nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 9
+    description: 100GHz odd channel 28
+  - name: Ch 29 (1554.134nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 10
+    description: 100GHz odd channel 29
+  - name: Ch 30 (1553.329nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 11
+    description: 100GHz odd channel 30
+  - name: Ch 31 (1552.524nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 12
+    description: 100GHz odd channel 31
+  - name: Ch 32 (1551.721nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 13
+    description: 100GHz odd channel 32
+  - name: Ch 33 (1550.918nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 14
+    description: 100GHz odd channel 33
+  - name: Ch 34 (1550.116nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 15
+    description: 100GHz odd channel 34
+  - name: Ch 35 (1549.315nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 16
+    description: 100GHz odd channel 35
+  - name: Ch 36 (1548.515nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 17
+    description: 100GHz odd channel 36
+  - name: Ch 37 (1547.715nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 18
+    description: 100GHz odd channel 37
+  - name: Ch 38 (1546.917nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 19
+    description: 100GHz odd channel 38
+  - name: Ch 39 (1546.119nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 20
+    description: 100GHz odd channel 39
+  - name: Ch 40 (1545.322nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 21
+    description: 100GHz odd channel 40
+  - name: Ch 41 (1544.526nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 22
+    description: 100GHz odd channel 41
+  - name: Ch 42 (1543.730nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 23
+    description: 100GHz odd channel 42
+  - name: Ch 43 (1542.936nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 24
+    description: 100GHz odd channel 43
+  - name: Ch 44 (1542.142nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 25
+    description: 100GHz odd channel 44
+  - name: Ch 45 (1541.349nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 26
+    description: 100GHz odd channel 45
+  - name: Ch 46 (1540.557nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 27
+    description: 100GHz odd channel 46
+  - name: Ch 47 (1539.766nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 28
+    description: 100GHz odd channel 47
+  - name: Ch 48 (1538.976nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 29
+    description: 100GHz odd channel 48
+  - name: Ch 49 (1538.186nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 30
+    description: 100GHz odd channel 49
+  - name: Ch 50 (1537.397nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 31
+    description: 100GHz odd channel 50
+  - name: Ch 51 (1536.609nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 32
+    description: 100GHz odd channel 51
+  - name: Ch 52 (1535.822nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 33
+    description: 100GHz odd channel 52
+  - name: Ch 53 (1535.036nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 34
+    description: 100GHz odd channel 53
+  - name: Ch 54 (1534.250nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 35
+    description: 100GHz odd channel 54
+  - name: Ch 55 (1533.465nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 36
+    description: 100GHz odd channel 55
+  - name: Ch 56 (1532.681nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 37
+    description: 100GHz odd channel 56
+  - name: Ch 57 (1531.898nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 38
+    description: 100GHz odd channel 57
+  - name: Ch 58 (1531.116nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 39
+    description: 100GHz odd channel 58
+  - name: Ch 59 (1530.334nm)
+    type: lc-pc
+    rear_port: Com Line
+    rear_port_position: 40
+    description: 100GHz odd channel 59
+interfaces:
+  - name: Mon Tx
+    type: other
+    description: MUX monitoring tap (98/2, -17dB)
+  - name: Mon Rx
+    type: other
+    description: DEMUX monitoring tap (98/2, -17dB)

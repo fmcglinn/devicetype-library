@@ -1,6 +1,7 @@
 ---
 manufacturer: Ekinops
 model: PM_600FRS06-SF
+part_number: PM_600FRS06-SF
 description: 600G flex-rate single-fiber coherent muxponder (100G-ULH/200G-LH/200G-MR/300G-MR/400G-MA/500G-MA/600G-ZR)
 interfaces:
   - name: Q1

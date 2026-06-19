@@ -1,6 +1,7 @@
 ---
 manufacturer: Ekinops
 model: PM_MGNT4-2
+part_number: PM_MGNT4-2
 description: Management module (Gen 2) for C200HC/C600HC chassis
 console-ports:
   - name: CLI

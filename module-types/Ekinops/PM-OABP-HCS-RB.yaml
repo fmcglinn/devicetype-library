@@ -1,6 +1,7 @@
 ---
 manufacturer: Ekinops
 model: PM_OABP-HCS-RB
+part_number: PM_OABP-HCS-RB
 description: DWDM Booster/Pre-Amp optical amplifier, 17dBm, single fiber (OSC 1590nm-Add/1510nm-Drop)
 interfaces:
   - name: Line A In

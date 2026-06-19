@@ -1,6 +1,7 @@
 ---
 manufacturer: Ekinops
 model: PM_400FRS04-SF
+part_number: PM_400FRS04-SF
 description: 400G flex-rate single-fiber coherent muxponder (100G-ULH/200G-LH/200G-MR/300G-MR/400G-MA)
 interfaces:
   - name: Q1

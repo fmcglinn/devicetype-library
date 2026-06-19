@@ -1,0 +1,16 @@
+---
+manufacturer: Ekinops
+model: PM_OC2-RB
+part_number: PM_OC2-RB
+description: Optical bands combiner, Tx Red and Rx Blue
+rear-ports:
+  - name: Line BiDi
+    type: sc-apc
+    positions: 1
+    description: Single-fiber bidirectional trunk port
+front-ports:
+  - name: Line
+    type: lc-pc
+    rear_port: Line BiDi
+    rear_port_position: 1
+    description: C-band line port (Red input / Blue output)

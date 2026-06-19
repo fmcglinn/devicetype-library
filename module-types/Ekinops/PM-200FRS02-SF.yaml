@@ -1,6 +1,7 @@
 ---
 manufacturer: Ekinops
 model: PM_200FRS02-SF
+part_number: PM_200FRS02-SF
 description: 200G flex-rate single-fiber coherent muxponder (100G-ULH/200G-MR)
 interfaces:
   - name: Q1
