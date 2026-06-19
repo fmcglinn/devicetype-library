@@ -10,169 +10,89 @@ description: 16ch passive DWDM MUX/DEMUX, Red band MUX (ch 22-37) / Blue band DE
 rear-ports:
   - name: Com Line
     type: lc-pc
-    positions: 32
+    positions: 16
     description: Aggregate DWDM trunk (LC duplex, Tx+Rx)
 front-ports:
-  - name: MUX Ch 22 (1559.79nm)
+  - name: Tx 22 / Rx 44 (1559.79/1542.14nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 1
-    description: Red band channel 22
-  - name: MUX Ch 23 (1558.98nm)
+    description: Duplex - Red Tx ch22 / Blue Rx ch44
+  - name: Tx 23 / Rx 45 (1558.98/1541.35nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 2
-    description: Red band channel 23
-  - name: MUX Ch 24 (1558.17nm)
+    description: Duplex - Red Tx ch23 / Blue Rx ch45
+  - name: Tx 24 / Rx 46 (1558.17/1540.56nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 3
-    description: Red band channel 24
-  - name: MUX Ch 25 (1557.36nm)
+    description: Duplex - Red Tx ch24 / Blue Rx ch46
+  - name: Tx 25 / Rx 47 (1557.36/1539.77nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 4
-    description: Red band channel 25
-  - name: MUX Ch 26 (1556.56nm)
+    description: Duplex - Red Tx ch25 / Blue Rx ch47
+  - name: Tx 26 / Rx 48 (1556.56/1538.98nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 5
-    description: Red band channel 26
-  - name: MUX Ch 27 (1555.75nm)
+    description: Duplex - Red Tx ch26 / Blue Rx ch48
+  - name: Tx 27 / Rx 49 (1555.75/1538.19nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 6
-    description: Red band channel 27
-  - name: MUX Ch 28 (1554.94nm)
+    description: Duplex - Red Tx ch27 / Blue Rx ch49
+  - name: Tx 28 / Rx 50 (1554.94/1537.40nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 7
-    description: Red band channel 28
-  - name: MUX Ch 29 (1554.13nm)
+    description: Duplex - Red Tx ch28 / Blue Rx ch50
+  - name: Tx 29 / Rx 51 (1554.13/1536.61nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 8
-    description: Red band channel 29
-  - name: MUX Ch 30 (1553.33nm)
+    description: Duplex - Red Tx ch29 / Blue Rx ch51
+  - name: Tx 30 / Rx 52 (1553.33/1535.82nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 9
-    description: Red band channel 30
-  - name: MUX Ch 31 (1552.52nm)
+    description: Duplex - Red Tx ch30 / Blue Rx ch52
+  - name: Tx 31 / Rx 53 (1552.52/1535.04nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 10
-    description: Red band channel 31
-  - name: MUX Ch 32 (1551.72nm)
+    description: Duplex - Red Tx ch31 / Blue Rx ch53
+  - name: Tx 32 / Rx 54 (1551.72/1534.25nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 11
-    description: Red band channel 32
-  - name: MUX Ch 33 (1550.92nm)
+    description: Duplex - Red Tx ch32 / Blue Rx ch54
+  - name: Tx 33 / Rx 55 (1550.92/1533.46nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 12
-    description: Red band channel 33
-  - name: MUX Ch 34 (1550.12nm)
+    description: Duplex - Red Tx ch33 / Blue Rx ch55
+  - name: Tx 34 / Rx 56 (1550.12/1532.68nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 13
-    description: Red band channel 34
-  - name: MUX Ch 35 (1549.32nm)
+    description: Duplex - Red Tx ch34 / Blue Rx ch56
+  - name: Tx 35 / Rx 57 (1549.32/1531.90nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 14
-    description: Red band channel 35
-  - name: MUX Ch 36 (1548.52nm)
+    description: Duplex - Red Tx ch35 / Blue Rx ch57
+  - name: Tx 36 / Rx 58 (1548.52/1531.12nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 15
-    description: Red band channel 36
-  - name: MUX Ch 37 (1547.71nm)
+    description: Duplex - Red Tx ch36 / Blue Rx ch58
+  - name: Tx 37 / Rx 59 (1547.71/1530.33nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 16
-    description: Red band channel 37
-  - name: DEMUX Ch 44 (1542.14nm)
-    type: lc-pc
-    rear_port: Com Line
-    rear_port_position: 17
-    description: Blue band channel 44
-  - name: DEMUX Ch 45 (1541.35nm)
-    type: lc-pc
-    rear_port: Com Line
-    rear_port_position: 18
-    description: Blue band channel 45
-  - name: DEMUX Ch 46 (1540.56nm)
-    type: lc-pc
-    rear_port: Com Line
-    rear_port_position: 19
-    description: Blue band channel 46
-  - name: DEMUX Ch 47 (1539.77nm)
-    type: lc-pc
-    rear_port: Com Line
-    rear_port_position: 20
-    description: Blue band channel 47
-  - name: DEMUX Ch 48 (1538.98nm)
-    type: lc-pc
-    rear_port: Com Line
-    rear_port_position: 21
-    description: Blue band channel 48
-  - name: DEMUX Ch 49 (1538.19nm)
-    type: lc-pc
-    rear_port: Com Line
-    rear_port_position: 22
-    description: Blue band channel 49
-  - name: DEMUX Ch 50 (1537.40nm)
-    type: lc-pc
-    rear_port: Com Line
-    rear_port_position: 23
-    description: Blue band channel 50
-  - name: DEMUX Ch 51 (1536.61nm)
-    type: lc-pc
-    rear_port: Com Line
-    rear_port_position: 24
-    description: Blue band channel 51
-  - name: DEMUX Ch 52 (1535.82nm)
-    type: lc-pc
-    rear_port: Com Line
-    rear_port_position: 25
-    description: Blue band channel 52
-  - name: DEMUX Ch 53 (1535.04nm)
-    type: lc-pc
-    rear_port: Com Line
-    rear_port_position: 26
-    description: Blue band channel 53
-  - name: DEMUX Ch 54 (1534.25nm)
-    type: lc-pc
-    rear_port: Com Line
-    rear_port_position: 27
-    description: Blue band channel 54
-  - name: DEMUX Ch 55 (1533.46nm)
-    type: lc-pc
-    rear_port: Com Line
-    rear_port_position: 28
-    description: Blue band channel 55
-  - name: DEMUX Ch 56 (1532.68nm)
-    type: lc-pc
-    rear_port: Com Line
-    rear_port_position: 29
-    description: Blue band channel 56
-  - name: DEMUX Ch 57 (1531.90nm)
-    type: lc-pc
-    rear_port: Com Line
-    rear_port_position: 30
-    description: Blue band channel 57
-  - name: DEMUX Ch 58 (1531.12nm)
-    type: lc-pc
-    rear_port: Com Line
-    rear_port_position: 31
-    description: Blue band channel 58
-  - name: DEMUX Ch 59 (1530.33nm)
-    type: lc-pc
-    rear_port: Com Line
-    rear_port_position: 32
-    description: Blue band channel 59
+    description: Duplex - Red Tx ch37 / Blue Rx ch59
 interfaces:
   - name: Mon Tx
     type: other

@@ -4,18 +4,12 @@ model: PM_OABP-HCS-BR
 part_number: PM_OABP-HCS-BR
 description: DWDM Booster/Pre-Amp optical amplifier, 17dBm, single fiber (OSC 1510nm-Add/1590nm-Drop)
 interfaces:
-  - name: Line A In
+  - name: Line A
     type: other
-    description: Booster input (LC, C-band DWDM)
-  - name: Line A Out
+    description: OC2-side duplex (LC, Booster in / Pre-Amp out)
+  - name: Line B
     type: other
-    description: Pre-Amp output (LC, C-band DWDM)
-  - name: Line B In
-    type: other
-    description: Pre-Amp input (LC, C-band DWDM)
-  - name: Line B Out
-    type: other
-    description: Booster output (LC, C-band DWDM)
+    description: Mux-side duplex (LC, Pre-Amp in / Booster out)
   - name: Mon A
     type: other
     description: Pre-Amp monitoring output (LC, -17dB tap)
