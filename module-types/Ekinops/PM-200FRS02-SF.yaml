@@ -1,0 +1,12 @@
+---
+manufacturer: Ekinops
+model: PM_200FRS02-SF
+description: 200G flex-rate single-fiber coherent muxponder (100G-ULH/200G-MR)
+interfaces:
+  - name: Q1
+    type: 100gbase-x-qsfp28
+  - name: Q2
+    type: 100gbase-x-qsfp28
+  - name: X1
+    type: other
+    description: Coherent DWDM line port (LC duplex, tunable, single fiber)

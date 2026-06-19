@@ -1,0 +1,20 @@
+---
+manufacturer: Ekinops
+model: PM_600FRS06-SF
+description: 600G flex-rate single-fiber coherent muxponder (100G-ULH/200G-LH/200G-MR/300G-MR/400G-MA/500G-MA/600G-ZR)
+interfaces:
+  - name: Q1
+    type: 100gbase-x-qsfp28
+  - name: Q2
+    type: 100gbase-x-qsfp28
+  - name: Q3
+    type: 100gbase-x-qsfp28
+  - name: Q4
+    type: 100gbase-x-qsfp28
+  - name: Q5
+    type: 100gbase-x-qsfp28
+  - name: Q6
+    type: 100gbase-x-qsfp28
+  - name: X1
+    type: other
+    description: Coherent DWDM line port (LC duplex, tunable, single fiber)
