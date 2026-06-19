@@ -13,86 +13,86 @@ rear-ports:
     positions: 16
     description: Aggregate DWDM trunk (LC duplex, Tx+Rx)
 front-ports:
-  - name: Tx 44 / Rx 22 (1542.14/1559.79nm)
+  - name: Rx 22 / Tx 44 (1559.79/1542.14nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 1
-    description: Duplex - Blue Tx ch44 / Red Rx ch22
-  - name: Tx 45 / Rx 23 (1541.35/1558.98nm)
+    description: Duplex - Red Rx ch22 / Blue Tx ch44
+  - name: Rx 23 / Tx 45 (1558.98/1541.35nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 2
-    description: Duplex - Blue Tx ch45 / Red Rx ch23
-  - name: Tx 46 / Rx 24 (1540.56/1558.17nm)
+    description: Duplex - Red Rx ch23 / Blue Tx ch45
+  - name: Rx 24 / Tx 46 (1558.17/1540.56nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 3
-    description: Duplex - Blue Tx ch46 / Red Rx ch24
-  - name: Tx 47 / Rx 25 (1539.77/1557.36nm)
+    description: Duplex - Red Rx ch24 / Blue Tx ch46
+  - name: Rx 25 / Tx 47 (1557.36/1539.77nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 4
-    description: Duplex - Blue Tx ch47 / Red Rx ch25
-  - name: Tx 48 / Rx 26 (1538.98/1556.56nm)
+    description: Duplex - Red Rx ch25 / Blue Tx ch47
+  - name: Rx 26 / Tx 48 (1556.56/1538.98nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 5
-    description: Duplex - Blue Tx ch48 / Red Rx ch26
-  - name: Tx 49 / Rx 27 (1538.19/1555.75nm)
+    description: Duplex - Red Rx ch26 / Blue Tx ch48
+  - name: Rx 27 / Tx 49 (1555.75/1538.19nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 6
-    description: Duplex - Blue Tx ch49 / Red Rx ch27
-  - name: Tx 50 / Rx 28 (1537.40/1554.94nm)
+    description: Duplex - Red Rx ch27 / Blue Tx ch49
+  - name: Rx 28 / Tx 50 (1554.94/1537.40nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 7
-    description: Duplex - Blue Tx ch50 / Red Rx ch28
-  - name: Tx 51 / Rx 29 (1536.61/1554.13nm)
+    description: Duplex - Red Rx ch28 / Blue Tx ch50
+  - name: Rx 29 / Tx 51 (1554.13/1536.61nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 8
-    description: Duplex - Blue Tx ch51 / Red Rx ch29
-  - name: Tx 52 / Rx 30 (1535.82/1553.33nm)
+    description: Duplex - Red Rx ch29 / Blue Tx ch51
+  - name: Rx 30 / Tx 52 (1553.33/1535.82nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 9
-    description: Duplex - Blue Tx ch52 / Red Rx ch30
-  - name: Tx 53 / Rx 31 (1535.04/1552.52nm)
+    description: Duplex - Red Rx ch30 / Blue Tx ch52
+  - name: Rx 31 / Tx 53 (1552.52/1535.04nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 10
-    description: Duplex - Blue Tx ch53 / Red Rx ch31
-  - name: Tx 54 / Rx 32 (1534.25/1551.72nm)
+    description: Duplex - Red Rx ch31 / Blue Tx ch53
+  - name: Rx 32 / Tx 54 (1551.72/1534.25nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 11
-    description: Duplex - Blue Tx ch54 / Red Rx ch32
-  - name: Tx 55 / Rx 33 (1533.46/1550.92nm)
+    description: Duplex - Red Rx ch32 / Blue Tx ch54
+  - name: Rx 33 / Tx 55 (1550.92/1533.46nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 12
-    description: Duplex - Blue Tx ch55 / Red Rx ch33
-  - name: Tx 56 / Rx 34 (1532.68/1550.12nm)
+    description: Duplex - Red Rx ch33 / Blue Tx ch55
+  - name: Rx 34 / Tx 56 (1550.12/1532.68nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 13
-    description: Duplex - Blue Tx ch56 / Red Rx ch34
-  - name: Tx 57 / Rx 35 (1531.90/1549.32nm)
+    description: Duplex - Red Rx ch34 / Blue Tx ch56
+  - name: Rx 35 / Tx 57 (1549.32/1531.90nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 14
-    description: Duplex - Blue Tx ch57 / Red Rx ch35
-  - name: Tx 58 / Rx 36 (1531.12/1548.52nm)
+    description: Duplex - Red Rx ch35 / Blue Tx ch57
+  - name: Rx 36 / Tx 58 (1548.52/1531.12nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 15
-    description: Duplex - Blue Tx ch58 / Red Rx ch36
-  - name: Tx 59 / Rx 37 (1530.33/1547.71nm)
+    description: Duplex - Red Rx ch36 / Blue Tx ch58
+  - name: Rx 37 / Tx 59 (1547.71/1530.33nm)
     type: lc-pc
     rear_port: Com Line
     rear_port_position: 16
-    description: Duplex - Blue Tx ch59 / Red Rx ch37
+    description: Duplex - Red Rx ch37 / Blue Tx ch59
 interfaces:
   - name: Mon Tx
     type: other
